@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Your Brand Name</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts2.js"></script>
+
+
+</body>
+</head>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Natura Cosmatics</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="all.html">All Products</a>
+                    </li>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact.html">contact us</a>
+              </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </nav>
+<style>
+     body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #3684d2;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .submit-btn {
+    background-color: #36a8d2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .contact-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .social-links img {
+    width: 30px;
+    margin: 0 10px;
+  }
+</style>
+<div class="container">
+  <h1>Contact Us</h1>
+
+ 
+  <div class="section">
+    <h2>Send Us a Message</h2>
+    <form action="/submit-form" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject" required>
+        <option value="general">General Inquiry</option>
+        <option value="product-info">Product Information</option>
+        <option value="order-issue">Order Issue</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+
+ 
+  <div class="section contact-info">
+    <h2>Customer Support</h2>
+    <p>Email: <a href="mailto:support@NaturaCosmetics.com">support@NaturaCosmetics.com</a></p>
+    <p>Phone: +1-234-567-8901 (Available 9 AM - 6 PM, Mon-Fri)</p>
+  </div>
+
+ 
+  <div class="section">
+    <p>For common questions, please visit our <a href="/faq">FAQ page</a>. You can also <a href="/track-order">track your order</a>.</p>
+  </div>
+
+ 
+  <div class="section">
+    <h2>Visit Our Store</h2>
+    <p>123 Beauty St, Glamour City, State</p>
+    <p>Open Hours: Mon-Sat, 10 AM - 8 PM</p>
+  </div>
+</div>
+<footer style="background-color:#e4f3f6; color: #dddada; padding: 10px 10px;">
+    <div style="text-align: center; padding-top: 10px; border-top: 1px solid #444;">
+        <p style="color: #8c8282;">&copy; <span id="year"></span> Natura Cosmatics. All Rights Reserved.</p>
+      </div>
+    </footer>
+</body>
+</html>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
